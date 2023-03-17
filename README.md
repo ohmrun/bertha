@@ -2,6 +2,15 @@
 
 [direnv](direnv.net) based Haxe setup using [Neko](https://nekovm.org/).
 
+
+# Linux 
+
+# Windows 
+
+  [Git Bash](https://gitforwindows.org/) should be installed.
+
+# Mac
+
 Not yet tested on Mac or Windows, but intented to work there so please report issues.
 
 
