@@ -7,7 +7,7 @@ NEKO_TGT=$( direnv fetchurl "https://github.com/HaxeFoundation/neko/releases/dow
 mv -n "${NEKO_TGT}" "${BERTHA_TMP}/${NEKO_REMOTE_FILENAME}"
 tar -xzf "${BERTHA_PATH}/.local/bertha/o/tmp/${NEKO_REMOTE_FILENAME}" --directory "${BERTHA_PATH}/.local/bertha/o/os/linux/prg"
 
-NEKO_VERSION_STRING="$2"
+RCLONE_VERSION_STRING="$2"
 RCLONE_REMOTE_FILENAME="${RCLONE_VERSION_STRING}.zip"
 RCLONE_LINUX_URL="https://downloads.rclone.org/v1.62.2/${RCLONE_REMOTE_FILENAME}"
 RCLONE_TGT=$(  direnv fetchurl "https://downloads.rclone.org/v1.62.2/rclone-v1.62.2-linux-amd64.zip" "sha256-bIZ23Fbj0uJjWLW65harPsleJhgc2bhpLhAdzA/JZqE=" )
