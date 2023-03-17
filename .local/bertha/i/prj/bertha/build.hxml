@@ -1,0 +1,4 @@
+--cwd .local/bertha/i/prj/bertha
+-cp ../../src/bertha/main/haxe
+-main Main
+--interp
