@@ -35,6 +35,7 @@ paste into your `.envrc`
 # Windows 
 
   [Git Bash](https://gitforwindows.org/) should be installed.
+  
 
 # Mac
 

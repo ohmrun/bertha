@@ -1,0 +1,22 @@
+Write-Host "posh-direnv working"
+$Host.UI.RawUI.WindowTitle="bertha"
+
+$Env:BERTHA_ROOT='SHAZAAM'
+
+# SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+# export BERTHA_PATH="${SCRIPT_DIR}"
+
+# cd tmp
+# Invoke-WebRequest https://get.0install.net/0install.exe -OutFile 0install.exe
+# .\0install.exe
+
+# 0install add bb https://raw.githubusercontent.com/ohmrun/0install_babshka/main/Babashka.xml
+# 0install add neko https://raw.githubusercontent.com/ohmrun/0install_neko/main/Neko.xml
+# 0install add rclone https://raw.githubusercontent.com/ohmrun/0install_rclone/main/RClone.xml
+# 0install add cmake http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml
+
+
+#  [Environment]::SetEnvironmentVariable('BERTHA_ROOT',"SHAZAM")
+# [Environment]::SetEnvironmentVariable('BERTHA_PATH',{Get-Location})
+Write-Host "posh-direnv complete load"
+
