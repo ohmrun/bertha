@@ -6,7 +6,13 @@
 
 # How to use
 
-Below invocation should give you a neko binary to run anywhere.
+Below invocation should make available three binaries. (righthand links contain [0install](0install.net) manifests)
+
+1) [neko](nekovm.org) from [here](https://github.com/ohmrun/0install_neko)   
+2) [babashka](babashka.org) from [here](https://github.com/ohmrun/0install_babashka) and  
+3) [rclone](rclone.org)   from [here](https://github.com/ohmrun/0install_rclone)   
+
+
 
 ```bash
 git clone https://github.com/ohmrun/bertha.git
