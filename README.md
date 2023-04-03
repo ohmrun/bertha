@@ -14,11 +14,20 @@ Below invocation should make available three binaries. (righthand links contain 
 
 
 
+## Install
 ```bash
 git clone https://github.com/ohmrun/bertha.git
-cd bertha && direnv allow
+cd bertha && direnv allow # You will be asked to accept the signage of the certificates, see above links
 ```
 
+## Usage
+
+paste into your `.envrc`
+
+```bash
+  dotenv $HOME/.config/bertha.env
+  source_env $BERTHA_PATH
+```
 
 
 # Linux 
