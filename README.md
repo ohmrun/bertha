@@ -11,6 +11,7 @@ Below invocation should make available three binaries. (righthand links contain 
 1) [neko](nekovm.org) from [here](https://github.com/ohmrun/0install_neko)   
 2) [babashka](babashka.org) from [here](https://github.com/ohmrun/0install_babashka) and  
 3) [rclone](rclone.org)   from [here](https://github.com/ohmrun/0install_rclone)   
+4) [cmake](https://cmake.org/) from [here](http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml)
 
 
 
