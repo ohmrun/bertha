@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/mnt/dat/i/prj/bertha/.local/bertha/i/bins/linux/x64/.store/.stage/wkmxescq.t52</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/mnt/dat/i/prj/bertha/.local/bertha/i/bins/linux/x64/.store/.stage/wkmxescq.t52</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">DotnetToolReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/mnt/dat/i/prj/bertha/.local/bertha/i/bins/linux/x64/.store/.stage/wkmxescq.t52/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMklinker Condition=" '$(PkgMklinker)' == '' ">/mnt/dat/i/prj/bertha/.local/bertha/i/bins/linux/x64/.store/.stage/wkmxescq.t52/mklinker/2.1.3</PkgMklinker>
+  </PropertyGroup>
+</Project>
