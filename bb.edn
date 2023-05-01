@@ -2,11 +2,13 @@
   :paths [
     "./.local/bertha/i/src/main/bb/"
   ]
+  :deps {ohmrun/bertha {:local/root "."}}
   :tasks
   {
     :requires ([bertha.util]) 
     localhost.os.arch (println (bertha.util/localhost.os.arch))
     localhost.os.name (println (bertha.util/localhost.os.name))
     namespaces (print (all-ns))
+    device.info (println (bertha.util/device.info))
   }
 }
