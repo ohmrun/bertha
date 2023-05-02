@@ -10,5 +10,6 @@
     localhost.os.name (println (bertha.util/localhost.os.name))
     namespaces (print (all-ns))
     device.info (println (bertha.util/device.info))
+    bertha.path (println (bertha.util/bertha.path))
   }
 }

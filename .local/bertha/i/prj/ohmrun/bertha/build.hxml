@@ -1,4 +1,4 @@
 --cwd .local/bertha/i/prj/ohmrun/bertha
--cp ../../../src/ohmrun/bertha/main/haxe
+-cp ../../../src/main/haxe
 -main Main
 --interp
