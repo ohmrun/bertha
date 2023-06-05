@@ -8,6 +8,18 @@
 
 # How to use
 
+## Direnv installation
+
+### Linux & MacOs  
+[see](https://direnv.net/docs/installation.html)
+  
+### Windows  
+install via [scoop](https://github.com/ScoopInstaller/Install#installation)
+```
+ scoop bucket add main
+ scoop install main/direnv
+```
+
 Below invocation should make available the following binaries. (righthand links contain [0install](0install.net) manifests)
 
 1) [neko](nekovm.org) from [here](https://github.com/ohmrun/0install_neko)   
