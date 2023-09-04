@@ -1,6 +1,6 @@
 {
   :paths [
-    "./.local/bertha/i/src/main/bb/"
+    "./.local/share/bertha/i/src/main/bb/"
   ]
   :deps {ohmrun/bertha {:local/root "."}}
   :tasks
@@ -11,5 +11,8 @@
     namespaces (print (all-ns))
     device.info (println (bertha.util/device.info))
     bertha.path (println (bertha.util/bertha.path))
+    bertha.install bertha.install/main
+    bertha.softlink (bertha.util/bertha.softlink)
   }
 }
+;; java.nio.file.Files/createSymbolicLink
