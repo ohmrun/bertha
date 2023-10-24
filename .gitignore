@@ -2,3 +2,6 @@
 /.local/share/bertha/o/
 /.vscode
 /.trunk
+/allfileshas.txt
+/bigobjects.txt
+/bigtosmall.txt
